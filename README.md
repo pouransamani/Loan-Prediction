@@ -8,7 +8,7 @@
  - **Income** => Annual income of the customer (1000 Dollar)
  - **Eucation** => Education Level (1: Undergrad; 2: Graduate; 3: Advanced/Professional)
  - **Family** => Family size of the customer (1, 2, 3, 4)
- - **Mortgage** => Value of house mortgage if any. ($1000) 0, 101,...
+ - **Mortgage** => Value of house mortgage ($1000) if any. 0, 101,...
  - **CCAvg** => Average spending on credit cards per month (1000 Dollar)
  - **Zip Code** => Home Address ZIP code
  - **CreditCard** => Does the customer use a credit card issued by Universal Bank?(0, 1)
