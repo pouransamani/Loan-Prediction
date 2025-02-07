@@ -5,8 +5,8 @@
 - [Dataset Description](#Dataset-Description)
 - [Notebook prepration](#Notebook-prepration)
 - [preproccessing and Exploratory Data Analysis(EDA) ](#preproccessing-and-Exploratory-Data-Analysis-(EDA))
-- [Data Wrangling](#Data-Wrangling)
-- [Building a Linear Regression Model](#Buliding-a-linear-Regression-Model)
+- [Feature Engineering](#Feature-Engineering)
+- [Model Development](#Model-Development)
 - [The result for baseline model, Cross validation and GridSearchCV](#The-result-for-baseline-model-cross-validation-and-GridSearchCV)
 - [Conclusions](#Conclusions)
 - [Recommendations](#Recommendations)
@@ -63,7 +63,7 @@ There are no empty or (NaN) values in the dataset. The dataset has a mix of nume
 - import warnings
 - warnings.filterwarnings("ignore")
 
-## preproccessing and Exploratory Data Analysis (EDA
+## preproccessing and Exploratory Data Analysis (EDA)
 Data Cleaning:
 - Remove duplicate entries.
 - Handle missing values.
@@ -74,3 +74,15 @@ Data Cleaning:
 - Explore relationships between features using scatter plots, correlation matrices(Heatmap), etc.
 - Identify any patterns or trends in the data.
 
+## Feature Engineering:
+- Normalize target.
+- Using P-Values, chi-square test for identifying statistically significant features. 
+- Encode categorical variables.
+
+## Model Development:
+- Use the cleaned and preprocessed dataset to build a classification model using DT, LR, KNN, SVM, RF algorithms.
+- Split the dataset into training and testing sets.
+- Train the model with package of algorithms and evaluate its performance using accuracy measure.
+- Explore how model performance changes with different features or transformations using Cross Validation.
+- Tuning the model by GridSearchCV
+- Summarize findings and assess the models accuracies in classification personal loan receiving.
