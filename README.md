@@ -8,7 +8,7 @@
 - [Feature Engineering](#Feature-Engineering)
 - [Model Development](#Model-Development)
 - [Feature Importance](#Feature-Importance)
-- [Voting Classifier](#Voting Classifier):
+- [Voting Classifier](#Voting-Classifier):
 - [Model Tuned performance](#Model-Tuned-Performance)
 - [Conclusions](#Conclusions)
 - [Recommendations](#Recommendations)
@@ -97,8 +97,9 @@ Data Cleaning:
 
 ## Voting Classifier:
  - Combining predictions from different applied machine learning models, provide an average prediction result based on the prediction of all the submodels. 
+
 |Model |Baseline|Cross Validation|Tuned Performance(GridSearchCV)|Voting Classifier(Ensemble Methode)|
-|-----|--------|-------|--------- |------|
+|------|--------|----------------|------------------------------ |-----------------------------------|
 |Decision Tree| 96.73%|97.20% |97.71% ||
 |Logistic Regression| 95.2%|95.62% |95.68% ||
 |K Nearest Neighbor| 96.93%|96.82%| 97.11%||
