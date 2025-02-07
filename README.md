@@ -4,8 +4,7 @@
 - [Project Overview](#Project-Overview)
 - [Dataset Description](#Dataset-Description)
 - [Notebook prepration](#Notebook-prepration)
-- [preproccessing](#preproccessing)
-- [Exploratory data Analysis(EDA)](#Exploratory-Data-Analysis-(EDA))
+- [preproccessing](#preproccessing-and-Exploratory-Data-Analysis-(EDA))
 - [Data Wrangling](#Data-Wrangling)
 - [Building a Linear Regression Model](#Buliding-a-linear-Regression-Model)
 - [The result for baseline model, Cross validation and GridSearchCV](#The-result-for-baseline-model-cross-validation-and-GridSearchCV)
@@ -64,5 +63,14 @@ There are no empty or (NaN) values in the dataset. The dataset has a mix of nume
 - import warnings
 - warnings.filterwarnings("ignore")
 
-
+## preproccessing and Exploratory Data Analysis (EDA
+Data Cleaning:
+- Remove duplicate entries.
+- Handle missing values.
+- Correct inconsistencies in the data.
+- Detect and handle outliers.
+- Generate summary statistics for the dataset.
+- Visualize the distribution of each feature.
+- Explore relationships between features using scatter plots, correlation matrices(Heatmap), etc.
+- Identify any patterns or trends in the data.
 
