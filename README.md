@@ -7,7 +7,9 @@
 - [preproccessing and Exploratory Data Analysis(EDA) ](#preproccessing-and-Exploratory-Data-Analysis-(EDA))
 - [Feature Engineering](#Feature-Engineering)
 - [Model Development](#Model-Development)
-- [The result for baseline model, Cross validation and GridSearchCV](#The-result-for-baseline-model-cross-validation-and-GridSearchCV)
+- [Feature Importance](#Feature-Importance)
+- [Voting Classifier](#Voting Classifier):
+- [Model Tuned performance](#Model-Tuned-Performance)
 - [Conclusions](#Conclusions)
 - [Recommendations](#Recommendations)
 
@@ -86,3 +88,31 @@ Data Cleaning:
 - Explore how model performance changes with different features or transformations using Cross Validation.
 - Tuning the model by GridSearchCV
 - Summarize findings and assess the models accuracies in classification personal loan receiving.
+## Feature Importance:
+- Use feature importance technique to identify the most influence varaibles and enhancing models performance.
+-For every single algorithm;
+   - Tree-based models (Random Forest, and Decision Tree) → Importance based on feature splits.
+   - Permutation Importance → Measures how model accuracy changes when a feature is shuffled.
+   - Coefficients in Linear Models (Logistic Regression, Linear SVM) → Shows feature weight in prediction.
+
+## Voting Classifier:
+ - Combining predictions from different applied machine learning models, provide an average prediction result based on the prediction of all the submodels. 
+|Model |Baseline|Cross Validation|Tuned Performance(GridSearchCV)|Voting Classifier(Ensemble Methode)|
+|-----|--------|-------|--------- |------|
+|Decision Tree| 96.73%|97.20% |97.71% ||
+|Logistic Regression| 95.2%|95.62% |95.68% ||
+|K Nearest Neighbor| 96.93%|96.82%| 97.11%||
+|rbf-SVM| 97.86%|97.57% |97.97% ||
+|linear-SVM|95.26%| 95.65%  | --||
+|Random Forest| 98.20%|98.14%   |98.25% ||
+|Ensemble (Voting Classifier) ||98.17%||                                       97.93% |
+
+## Conclusion:
+- The Random Forest model identifies Education, Income, Mortgage, CCAvg, and Family as the most influential factors in predicting personal loan applications.
+- Understanding the impact of these features helps banks refine the model and gain a deeper understanding of applicants' financial behavior.
+
+## Recommondation:
+- The key factors influencing the prediction of personal loan applications are Education, Income, Mortgage, CCAvg, and Family. These features provide valuable insights that help banks make informed decisions about loan approvals and shape their marketing strategies. By considering these factors, banks can better assess applicants' eligibility and target potential customers more effectively. 
+
+ 
+     
