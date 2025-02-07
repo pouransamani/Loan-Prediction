@@ -4,7 +4,7 @@
 - [Project Overview](#Project-Overview)
 - [Dataset Description](#Dataset-Description)
 - [Notebook prepration](#Notebook-prepration)
-- [preproccessing](#preproccessing-and-Exploratory-Data-Analysis-(EDA))
+- [preproccessing and Exploratory Data Analysis(EDA) ](#preproccessing-and-Exploratory-Data-Analysis-(EDA))
 - [Data Wrangling](#Data-Wrangling)
 - [Building a Linear Regression Model](#Buliding-a-linear-Regression-Model)
 - [The result for baseline model, Cross validation and GridSearchCV](#The-result-for-baseline-model-cross-validation-and-GridSearchCV)
