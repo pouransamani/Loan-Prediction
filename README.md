@@ -115,5 +115,5 @@ Data Cleaning:
 ## Recommondation:
 - The key factors influencing the prediction of personal loan applications are Education, Income, Mortgage, CCAvg, and Family. These features provide valuable insights that help banks make informed decisions about loan approvals and shape their marketing strategies. By considering these factors, banks can better assess applicants' eligibility and target potential customers more effectively. 
 
- 
+ 🙂 💻
      
